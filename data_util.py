@@ -32,8 +32,10 @@ def generate_two_classes(N, dim, true_func, rn_func):
         rn = rn_func(1, dim).flatten()
         if true_func(rn) > 0 and len(cls1) < N:
             cls1.append(rn)
+            
         elif true_func(rn) < 0 and len(cls2) < N:
             cls2.append(rn)
+            
         if len(cls1) == N and len(cls2) == N:
             break
     return np.asarray(cls1), np.asarray(cls2)   
