@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="tensorflow-env" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="data-fusion_feature-extraction" project-jdk-type="Python SDK" />
 </project>
