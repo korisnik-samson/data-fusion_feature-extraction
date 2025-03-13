@@ -1,6 +1,8 @@
 import os
 import sys
+
 cur_dir = os.path.dirname(os.path.realpath(__file__))
+
 if cur_dir not in sys.path:
     sys.path.append(cur_dir)
 

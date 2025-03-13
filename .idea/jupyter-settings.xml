@@ -7,7 +7,7 @@
           <value>
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
-              <option name="sdkName" value="C:\Users\Samson\miniconda3" />
+              <option name="sdkName" value="tensorflow-env" />
             </JupyterConnectionParameters>
           </value>
         </entry>
