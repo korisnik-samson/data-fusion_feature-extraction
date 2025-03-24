@@ -49,7 +49,7 @@ def calc_error(w, xs, ys):
 
 
 def perceptron(points, dim, max_it=100, use_adaline=False, 
-               eta = 1, randomize=False, print_out = True):
+               eta = 1, randomize=False, verbose = True):
     w = np.zeros(dim+1)
     xs, ys = points[:,:dim+1], points[:,dim+1]
     num_points = points.shape[0]
@@ -88,7 +88,7 @@ def perceptron(points, dim, max_it=100, use_adaline=False,
             R = abs_x
     theoretical_t = (R**2) * (np.linalg.norm(w)**2)/rou/rou #LFD problem 1.3
     #w = w/w[-1]
-    if print_out:
+    if verbose:
         print('Final correctness: ', c, '. Total iteration: ', it)
         print('Final w:', w)
     return w, it, theoretical_t
