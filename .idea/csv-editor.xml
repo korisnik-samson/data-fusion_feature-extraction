@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dffe_hw3\data\archive\f1_pitstops_2018_2024.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

@@ -7,6 +7,7 @@
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/data" />
             <path value="file://$PROJECT_DIR$/dffe_hw2/data" />
+            <path value="file://$PROJECT_DIR$/dffe_hw3/data" />
           </resourceRoots>
         </entryData>
       </entry>
