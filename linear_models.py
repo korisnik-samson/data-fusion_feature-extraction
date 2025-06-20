@@ -476,5 +476,3 @@ class SVM(LinearRegressionBase):
         u = np.vstack((self.b, self.w))
         error = calc_error(u, XX, y)
         return error
-
-

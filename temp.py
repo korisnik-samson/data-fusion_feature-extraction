@@ -91,7 +91,7 @@ models = {
 # Train and evaluate models
 results = {}
 for name, config in models.items():
-    print(f"\n{'-'*50}\nTraining {name}...\n{'-'*50}")
+    print(f"\n{'-'*50}\nTraining {name}...\n{'-' * 50}")
 
     # Create pipeline with the model
     pipeline = create_pipeline(config['model'])
